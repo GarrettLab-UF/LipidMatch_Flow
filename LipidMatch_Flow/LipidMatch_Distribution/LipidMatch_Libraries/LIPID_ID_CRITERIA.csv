@@ -124,7 +124,7 @@ PS_Na_Class.csv,3,,TRUE,FALSE,TRUE,Pos,[M+Na]+,Phosphatidylserine
 PS_neg_minH.csv,6;7,,TRUE,TRUE,FALSE,Neg,[M-H]-,Phosphatidylserine
 PS_neg_minH_Class.csv,3,,TRUE,FALSE,TRUE,Neg,[M-H]-,Phosphatidylserine
 SM_H.csv,2;6;8,,TRUE,TRUE,FALSE,Pos,[M+H]+,Sphingomyelin
-SM_H_Class.csv,7,,FALSE,FALSE,TRUE,Pos,[M+H]+,Sphingomyelin
+SM_H_Class.csv,6,,FALSE,FALSE,TRUE,Pos,[M+H]+,Sphingomyelin
 SM_neg_HCO2.csv,3;4;5,,TRUE,TRUE,FALSE,Neg,[M+HCO2]-,Sphingomyelin
 SM_neg_HCO2_Class.csv,3;4,,TRUE,FALSE,TRUE,Neg,[M+HCO2]-,Sphingomyelin
 So_H.csv,4;5,,TRUE,TRUE,FALSE,Pos,[M+H]+,Sphingosine
