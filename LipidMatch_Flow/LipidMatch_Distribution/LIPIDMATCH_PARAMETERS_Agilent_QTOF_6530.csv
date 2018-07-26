@@ -11,5 +11,5 @@ Comments Column (row ID. Should be numeric,1,Must be changed to match your data 
 MZ Column (in feature table),2,Must be changed to match your data format
 RT Column (in feature table),3,Must be changed to match your data format
 row numeric data starts (in feature table),2,Must be changed to match your data format
-Directory of Inputs,C:/Users/Jeremy/Desktop/Demo_LM2/LipidMatch_Run/,Directory
-Directory of Libraries,C:/Users/Jeremy/Desktop/Desktop/Instrumentation/Software/MSms/LipidMatch_Workflow/LipidMatch_Flow_Versions/LipidMatch_Flow_Portable/LipidMatch_Flow/LipidMatch_Distribution/LipidMatch_Libraries/,Directory
+Directory of Inputs,C:/Users/Jeremy/Desktop/Desktop/Instrumentation/Software/MSms/LipidMatch/2017_8_05_LipidMatch_Distribution/ExampleData/,Directory
+Directory of Libraries,C:/Users/Jeremy/Desktop/Desktop/Instrumentation/Software/MSms/LipidMatch/2017_8_05_LipidMatch_Distribution/LipidMatch_Libraries_Test/,Directory

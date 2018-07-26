@@ -51,14 +51,13 @@ ManuallyInputVariables <- FALSE
 
 
 #Checks for updates, installs packagaes: "installr" "stringr" "sqldf" "gWidgets" "gWidgetstcltk" and "compiler"
-if(!require(installr)) {
-  install.packages("installr"); install.packages("stringr"); require(installr)}
-library(installr)
-
-if("sqldf" %in% rownames(installed.packages()) == FALSE) {install.packages("sqldf")}
+#if(!require(installr)) {
+#  install.packages("installr",  repos = c(CRAN = "http://cran.rstudio.com")); install.packages("stringr", repos = c(CRAN = "http://cran.rstudio.com")); require(installr)}
+#library(installr)
+if("sqldf" %in% rownames(installed.packages()) == FALSE) {install.packages("sqldf",  repos = c(CRAN = "http://cran.rstudio.com"))}
 # if("compiler" %in% rownames(installed.packages()) == FALSE) {install.packages("compiler")}
-if("gWidgets" %in% rownames(installed.packages()) == FALSE) {install.packages("gWidgets")}
-if("gWidgetstcltk" %in% rownames(installed.packages()) == FALSE) {install.packages("gWidgetstcltk")}
+if("gWidgets" %in% rownames(installed.packages()) == FALSE) {install.packages("gWidgets",  repos = c(CRAN = "http://cran.rstudio.com"))}
+if("gWidgetstcltk" %in% rownames(installed.packages()) == FALSE) {install.packages("gWidgetstcltk",  repos = c(CRAN = "http://cran.rstudio.com"))}
 require(gWidgets)
 require(gWidgetstcltk)
 options(guiToolkit="tcltk") 
